@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Sentence Completions Quiz</title>
+	<!--Meta Tags-->
+	<meta charset="UTF-8">
+	<!--Stylesheets-->
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css"/> 
+	<!--Fonts-->
+	<link href='http://fonts.googleapis.com/css?family=Montserrat|Bree+Serif' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Bevan' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+	<!--Javascript-->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#" id="instruct" class="options">INSTRUCTIONS</a></li>
+				<li><a href="#" id="new" class="options">NEW QUIZ</a></li>
+			</ul>
+		</nav>
+
+		<div class="overlay" id="modal">
+			<div class="content">
+				<h3>Instructions</h3>
+					<div>
+						<p>The quiz goes like this: </p>
+						<ul>
+							<li>1. Flip answer choices. Read question. Guess 2 possible choices.</li>
+							<li>2. Flip question. Match answer choices with your questions.</li>
+							<li>3. Click the X to strike out the answer choice. Strike out 3 answer choices.</li>
+							<li>4. Choose the correct answer. Click next.</li>
+						</ul>
+						<p>So, Are you ready?</p>
+						<a class="close" href="#" id="close">Lets do this!</a>
+					</div>
+				</div>
+			</div>
+		</header>
+		<section class="blur">
+			<ul class="blur-these">
+				<li><a href="#" class="button btnFade btnBlueGreen" id="blur-quest">FLIP QUESTION</a></li>
+				<li><a href="#" class="button btnFade btnBlueGreen"id="blur-answers">FLIP ANSWERS</a></li>
+			</ul>
+		</section>
+		<seciton> 	
+			<div class="question">
+				<p id="quest">
+				</p>	
+			</div>
+		</seciton>
+		<div class="answers">
+		</div>
+	<footer>
+		<div class="next">
+			<a href="#" class="button btnFade btnBlueGreen" id="next">NEXT QUESTION</a>
+		</div>
+	</footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
